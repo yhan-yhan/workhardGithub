@@ -148,3 +148,16 @@ p {
 #testimonials .testimonial img {
   height: 100px;
 }
+/* adding a color overlay on the backgroynd of the about section */
+.row {
+  background: rgba(39, 62, 84, 0.4);
+  overflow: hidden;
+  height: 600px;
+  z-index: 2;
+}
+/* changing the font color the heading and adjusting some spaces from the top edge */
+#testimonials .lead-head {
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
