@@ -138,3 +138,13 @@ p {
 #about a.c-btn:hover {
   color: #ffb740;
 }
+
+/* section testimonials */
+#testimonials {
+  background: url("../--image/first-1.jpg") no-repeat center center/cover;
+  height: 600px;
+  overflow: hidden;
+}
+#testimonials .testimonial img {
+  height: 100px;
+}
