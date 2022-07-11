@@ -141,7 +141,7 @@ p {
 
 /* section testimonials */
 #testimonials {
-  background: url("../--image/first-1.jpg") no-repeat center center/cover;
+  background: url("../--image/first-1.jpg") no-repeat center/cover;
   height: 600px;
   overflow: hidden;
 }
