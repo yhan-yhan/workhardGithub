@@ -145,9 +145,22 @@ p {
   height: 600px;
   overflow: hidden;
 }
+/* adjusting the testimonials container */
+#testimonials .testimonial {
+  padding: 20px;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 1.2em;
+}
+
 #testimonials .testimonial img {
   height: 100px;
+  width: 90px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
+
 /* adding a color overlay on the backgroynd of the about section */
 .row {
   background: rgba(39, 62, 84, 0.4);
@@ -160,4 +173,13 @@ p {
   color: #fff;
   padding-top: 20px;
   margin-bottom: 20px;
+}
+.bg-primary {
+  background: rgba(255, 255, 255, 0.4);
+}
+/* footer */
+footer {
+  background: #082032;
+  height: 70px;
+  overflow: auto;
 }
